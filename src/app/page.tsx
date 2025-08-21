@@ -25,10 +25,10 @@ export default function Home() {
       <Aboutus/>
       <Testimonial/>
       <Team teamdataNumber="06"/>
-      <Pricing/>
+      {/* <Pricing/> */}
       <Faq/>
-      <Resources/>
-      <Contact contactdataNumber="10"/>
+      {/* <Resources/> */}
+      <Contact contactdataNumber="08  "/>
     </>
   );
 }
