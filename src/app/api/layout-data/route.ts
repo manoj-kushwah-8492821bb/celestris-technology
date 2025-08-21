@@ -19,12 +19,12 @@ const MenuData = [
     path: "/projects",
     newTab: false,
   },
-  {
-    id: 4,
-    title: "Blog",
-    path: "/blog",
-    newTab: false,
-  },
+  // {
+  //   id: 4,
+  //   title: "Blog",
+  //   path: "/blog",
+  //   newTab: false,
+  // },
   {
     id: 5,
     title: "Services",
@@ -45,8 +45,8 @@ const footerData = {
   info: [
     {
       icon: "/images/footer/email-arrow.svg",
-      link: "info@wrappixel.com",
-      href: "https://www.wrappixel.com/",
+      link: "info@celestristechnology.com",
+      href: "https://www.celestristechnology.com/",
     },
     {
       icon: "/images/footer/Location.svg",
