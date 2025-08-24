@@ -10,7 +10,7 @@ const Logo = (props: { sticky: boolean }) => {
                 alt="logo"
                 width={190}
                 height={34}
-                style={{ width: 'auto', height: 'auto' }}
+                // style={{ width: 'auto', height: 'auto' }}
                 quality={100}
                 priority={true}
                 className='hidden xsm:block'

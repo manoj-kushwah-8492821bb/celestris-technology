@@ -74,9 +74,13 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 z-50 w-full border-t-4 border-primary transition-all duration-500 ease-in-out before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-0 before:bg-primary before:transition-all before:duration-500 before:ease-in-out ${
-        sticky ? "before:h-full" : "before:h-0"
-      }`}
+      className={`fixed top-0 z-50 w-full border-t-4 border-solid 
+  [border-image:var(--color-primary-gradient)_1] transition-all duration-500 ease-in-out
+  before:content-[''] before:absolute before:left-0 before:top-0 before:w-full before:h-0 
+  before:[background-image:var(--color-primary-gradient)] before:bg-no-repeat before:bg-cover 
+  before:transition-all before:duration-500 before:ease-in-out before:pointer-events-none
+  ${sticky ? "before:h-full" : "before:h-0"}
+`}
     >
       <div className="container">
         <nav

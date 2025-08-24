@@ -36,9 +36,9 @@ function HeroSection() {
                   />
                 </div>
                 <p className="text-white/70 max-w-md">
-                  We create{" "}
-                  <span className="text-primary">high-performing</span> digital
-                  designs that elevate brands and enhance conversions.
+                  Building Intelligent{" "}
+                  <span className="text-primary">Digital Solutions</span> for a
+                  Smarter World
                 </p>
               </div>
               <div className="flex flex-col lg:flex-row items-start lg:items-end gap-4">

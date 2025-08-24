@@ -11,7 +11,13 @@
   --breakpoint-xsm: 500px;
 
   /* color */
-  --color-primary: #bffd71;
+  --color-primary: #4714ef;
+  --color-primary-gradient: linear-gradient(
+    90deg,
+    rgba(42, 20, 234, 1) 0%,
+    rgba(71, 20, 239, 1) 62%,
+    rgba(220, 34, 246, 1) 100%
+  );
   --color-secondary: #1f2a2e;
   --color-lightgray: #f4f8fa;
   --color-overlay: #000a0b99;
@@ -43,6 +49,14 @@ body {
 }
 
 @layer utilities {
+  .bg-primary {
+    background: var(--color-primary-gradient);
+  }
+
+  .bg-primary-gradient {
+    background-image: var(--color-primary-gradient);
+  }
+
   .container {
     @apply w-full max-w-[105rem] my-0 mx-auto py-0 sm:px-7 px-5;
   }
