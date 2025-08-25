@@ -41,15 +41,15 @@ function HeroSection() {
                   Smarter World
                 </p>
               </div>
-              <div className="flex flex-col lg:flex-row items-start lg:items-end gap-4">
-                <h1 className="large-heading">Celestris</h1>
+              <div className="flex flex-row items-end lg:items-baseline gap-4">
+                <h2 className="large-heading">Celestris</h2>
                 <div>
                   <div className="bg-primary rounded-full p-1.5 pl-8">
                     <Image
                       src={"/images/Icon/arrow-icon.svg"}
                       alt="icon"
-                      height={52}
-                      width={52}
+                      height={45}
+                      width={45}
                     />
                   </div>
                 </div>
