@@ -45,7 +45,7 @@ const Herobanner = ({
             </p>
           </div>
           <div className="flex flex-row items-end lg:items-baseline gap-4">
-            <h2 className={`${headingClass ? headingClass : "large-heading"}`}>
+            <h2 className={`${headingClass ? headingClass : "large-heading"} text-white`}>
               {heading}
             </h2>
             <div className="bg-primary rounded-full p-1.5 pl-8">
